@@ -29,10 +29,8 @@
 - Criar o diretório do projeto e abrir no VSCode
 ---
 
-## Extensões do VSCode
+## autopep8
 
-
-- Instalar a Extenção **Python** da **Microsoft** 
 - Instalar **autopep8**: rodar o atalho `shift + alt + f` dentro de um arquivo _.py_ o qual irá solicitar automaticamente a instação do _autopep8_
 
 ---
