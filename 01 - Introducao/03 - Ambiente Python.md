@@ -20,22 +20,27 @@
 
     pip --version
 
----
 
 ## VSCode
 
 
 - Download do VSCode via site oficial
 - Criar o diretório do projeto e abrir no VSCode
----
 
-## autopep8
 
-- Instalar **autopep8**: rodar o atalho `shift + alt + f` dentro de um arquivo _.py_ o qual irá solicitar automaticamente a instação do _autopep8_
+### Extensões
 
----
 
-## Configurações VSCode
+- Logar com o GitHub para ativar a _Sincronização de Configurações_
+
+
+### autopep8
+
+
+- Instalar **autopep8**: rodar o atalho `shift + alt + f` dentro de um arquivo _.py_ o qual irá solicitar automaticamente a instalação do _autopep8_
+
+
+### Configurações VSCode
 
 
 - _Configurações/auto save_ (no campo de pesquisa)
@@ -43,7 +48,6 @@
     - _Files: Auto Save Delay -> 1000_
 - _Configurações/format on save_  (no campo de pesquisa)
 
----
 
 ## Ambiente Virtual
 
@@ -69,7 +73,6 @@ Desativar um ambiente virtual:
 
     deactivate
 
----
 
 ## PIP Freeze
 
