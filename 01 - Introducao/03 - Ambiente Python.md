@@ -32,6 +32,7 @@
 
 
 - Logar com o GitHub para ativar a _Sincronização de Configurações_
+- **Python (Microsoft)** - criar um arquivo Python e selecionar o interpretador Python do ambiente virtual (venv) na barra inferior do VSCode 
 
 
 ### autopep8
@@ -43,10 +44,10 @@
 ### Configurações VSCode
 
 
+- _Configurações/format on save_  (no campo de pesquisa)
 - _Configurações/auto save_ (no campo de pesquisa)
     - _Files: Auto Save -> afterDelay_
     - _Files: Auto Save Delay -> 1000_
-- _Configurações/format on save_  (no campo de pesquisa)
 
 
 ## Ambiente Virtual
