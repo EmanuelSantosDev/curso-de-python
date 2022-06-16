@@ -13,7 +13,6 @@ Dir
     terminal: >>> dir()
     output: ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
     terminal: >>> dir(__builtins__)
-
 """
 
 
@@ -29,7 +28,6 @@ Help
     para determinado tipo de dado 
 
   - Sintaxe: help(funcao) ou help(valor/tipo_de_dado.método/função) 
-
 """
 
 
