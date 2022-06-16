@@ -4,7 +4,7 @@ Ferramenta dir()
 ----------------
 
     - Apresenta no terminal uma lista de funções e métodos que podem ser
-      utilziados em algum tipo de dado
+      utilizados em algum tipo de dado
 
     - Sintaxe: dir(valor/tipo de dado)
 
@@ -33,6 +33,8 @@ Ferramenta help()
       para determinado tipo de dado 
 
     - Sintaxe: help(funcao) ou help(valor/tipo_de_dado.método/função) 
+
+    - Não utilizar os 'parênteses' ao final do nome da função, pois não estamos à invocando
   
 """
 
