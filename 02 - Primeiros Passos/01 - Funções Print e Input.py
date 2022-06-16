@@ -2,8 +2,8 @@
 
 # Funções Print e Input
 
-print('Digite uma cor:')
 # Todos os dados recebidos são do tipo String
+print('Digite uma cor:')
 
 cor = input()
 
@@ -27,9 +27,11 @@ print(f'Você escolheu a cor {cor2}')
 # -----------------------------------------------------------------------------------------------
 
 # Print vai sempre pular a linha por padrão
+
 print('tomate')
 print('tomate')
 print('tomate')
+
 # tomate
 # tomate
 # tomate
@@ -38,14 +40,16 @@ print('tomate')
 
 # Print sem pular linha
 # o print padrão é: print('tomate', end='\n')
+
 print('tomate', end=' ')
 print('tomate', end=' ')
 print('tomate', end='\n')
+
 # tomate tomate tomate
 
 # -----------------------------------------------------------------------------------------------
 
-# Imprimindo mais 2 ou mais variáveis
+# Imprimindo 2 ou mais variáveis
 
 animal = input('Digite um animal: ')
 fruta = input('Digite uma fruta: ')
@@ -61,12 +65,21 @@ print(f'Você escolheu o animal {animal} e a fruta {fruta}')
 
 # -----------------------------------------------------------------------------------------------
 
-# Realizar Operações nas saídas
-# é necessário realizar o 'casting' do dado primeiro
+# Para realizar Operações Matemáticas nas saídas é necessário realizar o 'casting' do dado primeiro
+
 num1 = input('Digite o primeiro número: ')
 num2 = input('Digite o segundo número: ')
-# Erro - vai gerar uma concatenação de Strings
-print(f'A soma é: {num1 + num2}')
+
+print(f'A soma é: {num1 + num2}') # Erro - vai gerar uma concatenação de Strings
 print(f'A soma é: {int(num1) + int(num2)}')  # Modo correto
 
 # -----------------------------------------------------------------------------------------------
+
+# Impressão de Múltiplas Linhas
+
+print(f'O personagem tem cabelos na cor {cor_do_cabelo.upper()}\n'
+      f'A cor da pele é {cor_da_pele.upper()}\n'
+      f'A sua classe é {classe.upper()}\n'
+      f'A sua idade é de {idade} anos de idade\n'
+      f'Sua altura é de {altura}\n'
+      f'Sua habilidade específica é {habilidade_especifica.upper()}')
