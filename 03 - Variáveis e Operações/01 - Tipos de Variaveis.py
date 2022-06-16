@@ -1,4 +1,5 @@
 """
+
 Variáveis 
 ---------
 
@@ -10,6 +11,7 @@ Existem 2 tipos de variaveis:
 Como declarar variáveis?
 
     nome = dado
+
 """
 
 
@@ -20,6 +22,7 @@ idadejoao = 17  # errado
 
 
 """
+
 Tipos de Dados
 --------------
 
@@ -39,6 +42,7 @@ Tipos de Dados
         - Normalmente é usado em cálculos geométricos e científicos.
         - Um tipo complexo contem duas partes: a parte 'real' e a parte 'imaginária', 
           sendo que a parte imaginária contem um 'j' no sufixo.
+
 """
 
 # Inteiro
@@ -69,10 +73,12 @@ print(type(num_complexo))  # <class 'complex'>
 
 
 """ 
+
 Atribuição Múltipla
 -------------------
 
     - declaração de múltiplas variáveis em uma única linha
+    
 """
 
 
