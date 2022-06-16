@@ -56,8 +56,10 @@ print(type(var_bool))  # <class 'bool'>
 # String
 nome = "João dos Santos"
 print(type(nome))  # <class 'str'>
+
 # String Invertida
 print(nome[::-1])  # sotnaS sod oãoJ
+
 # String Recortada
 print(nome[9:15])  # Santos
 
