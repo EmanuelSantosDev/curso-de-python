@@ -19,7 +19,7 @@ else:
 
 # ----------------------------------------------------------------------
 
-# if...elif... else
+# if...elif...else
 
 nota = float(input('Digite a sua nota: '))
 
