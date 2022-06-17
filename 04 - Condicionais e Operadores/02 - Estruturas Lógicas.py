@@ -4,7 +4,6 @@
 
 # and : True apenas se todas as condições forem True
 # or  : True quando pelo menos uma condição for True
-# is  : Comparação entre valores similar ao '=='
 # not : Inverte o resultado, retorna False se True e vice-versa
 
 # ----------------------------------------------------------------------
