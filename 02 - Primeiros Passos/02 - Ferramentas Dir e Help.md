@@ -1,20 +1,20 @@
 # Ferramenta dir()
 
 
-Apresenta no terminal uma lista de funções e métodos que podem ser utilizados em algum tipo de dado.
+Apresenta uma lista de funções e métodos que podem ser utilizados em determinado valor ou tipo de dado.
 
 Sintaxe: 
 ````python
 dir(valor/tipo de dado)
 ````
 
-Se rodar diretamente no interpretador Python, via terminal, ela vai mostrar todos os pacotes de funções disponíveis para o arquivo:
+Visualizando todos os pacotes de funções disponíveis por padrão em um arquivo Python:
 
 ````
 input: python
-input: >>> dir()
-output: ['__annotations__', '__builtins__', '__doc__'__loader__', '__name__', '__package__', '__spec__']
-input: >>> dir(__builtins__)
+input: dir()
+output: ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+input: dir(__builtins__)
 ````
 
 Em um arquivo _.py_:
