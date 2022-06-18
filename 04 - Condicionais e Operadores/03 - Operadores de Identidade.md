@@ -1,14 +1,13 @@
-# ----------------------------------------------------------------------
+# Operadores de Identidade
 
-# OPERADORES DE IDENTIDADE
+- ``is`` : retorna ``True`` se ambas as variáveis ​​forem o mesmo objeto
+- ``is not`` : retorna ``True`` se ambas as variáveis NÃO forem o mesmo objeto
 
-# is : retorna 'True' se ambas as variáveis ​​forem o mesmo objeto
-# is not : retorna 'True' se ambas as variáveis NÃO forem o mesmo objeto
 
-# ----------------------------------------------------------------------
+## Operador 'is'
 
-# Operador 'is'
 
+````python
 x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
@@ -26,11 +25,13 @@ print(x == y)
 
 # to demonstrate the difference betweeen "is" and "==": this comparison
 # returns True because x is equal to y
+````
 
-# ----------------------------------------------------------------------
 
-# Operador 'is not'
+## Operador 'is not'
 
+
+````python
 x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
@@ -48,5 +49,4 @@ print(x != y)
 
 # to demonstrate the difference betweeen "is not" and "!=": this
 # comparison returns False because x is equal to y
-
-# ----------------------------------------------------------------------
+````

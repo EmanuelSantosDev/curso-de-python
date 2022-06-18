@@ -1,8 +1,8 @@
 # Estruturas Lógicas
 
-- **and** : é ``True`` apenas se todas as condições forem ``True``
-- **or**  : é ``True`` quando pelo menos uma condição for ``True``
-- **not** : inverte o resultado, retorna ``False`` se ``True`` e vice-versa
+- ``and`` : é ``True`` apenas se todas as condições forem ``True``
+- ``or``  : é ``True`` quando pelo menos uma condição for ``True``
+- ``not`` : inverte o resultado, retorna ``False`` se ``True`` e vice-versa
 
 
 # Operador 'and'
