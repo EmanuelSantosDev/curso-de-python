@@ -32,8 +32,7 @@ print(f'Você escolheu a cor {cor}')
 
 
 ```python
-cor2 = input('Digite uma cor: ')
-print(f'Você escolheu a cor {cor2}')
+cor = input('Digite uma cor: ')
 ```
 
 
@@ -54,10 +53,10 @@ tomate
 ```
 
 
-## print() sem pular linha
+## Função print() sem pular linha
 
 
-O print padrão é: 
+O print() padrão é: 
 ````python
 print('tomate', end='\n')
 ````
@@ -69,7 +68,7 @@ print('tomate', end=' ')
 print('tomate', end='\n')
 ````
 
-Output
+Output:
 ````
 tomate tomate tomate
 ````
@@ -96,9 +95,9 @@ print(f'Você escolheu o animal {animal} e a fruta {fruta}')
 ````
 
 
-## Operações Matemáticas nas Saídas
+## Operações Matemáticas na Função Print()
 
-Para realizar Operações Matemáticas nas saídas é necessário realizar o 'casting' do dado primeiro
+Para realizar Operações Matemáticas nas saídas é necessário realizar o 'casting' do dado primeiro:
 
 ````python
 num1 = input('Digite o primeiro número: ')
@@ -109,7 +108,7 @@ print(f'A soma é: {int(num1) + int(num2)}')  # Modo correto
 ````
 
 
-## print() com Múltiplas Linhas
+## Função print() com Múltiplas Linhas
 
 ````python
 print(f'O personagem tem cabelos na cor {cor_do_cabelo.upper()}\n'
