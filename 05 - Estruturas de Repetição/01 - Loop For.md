@@ -67,42 +67,40 @@ for time in lista_de_time:
 
 
 ````python
-# Imprime valores de 1 a 100
-
-intervalo_de_numeros = range(1, 101)  
-
-for i in intervalo_de_numeros:
-    print(i)
-
-# range() com intervalo padrão (Imprime valores de 0 a 200)
+# range() Padrão (Imprime valores de 0 a 200)
 
 numeros = range(201) 
  
 for i in numeros:  
     print(i)
 
-# range() com sequência negativa (Imprime valores de -20 a 299)
+# range() com limites pré-definidos (Imprime valores de 1 a 100)
+
+intervalo_de_numeros = range(1, 101)  
+
+for i in intervalo_de_numeros:
+    print(i)
+
+# range() com números negativos (Imprime valores de -20 a 299)
 
 numeros = range(-20, 300) 
 
 for i in numeros:   
     print(i)
 
-# range() com Intervalores Pré-Definidos (Criará um intervalo 'de 3 em 3')
+# range() com 'Intervalo Passo X' (Criará um intervalo 'de 3 em 3')
 
 numeros = range(3, 19, 3)  
 
 for i in numeros:
     print(i, end=' ')  # 3 6 9 12 15 18
 
-# range() com Intervalores Pré-Definidos + Sequencia Negativa
-# Criará um intervalo descrescente
-# Output: 18 15 12 9 6 3 0 -3 -6 -9 -12 
+# range() com 'Intervalo Passo X' + Sequencia Negativa (intervalo descrescente)
 
 numeros = range(18, -15, -3)
 
 for i in numeros:
-    print(i, end=' ')  # 3 6 9 12 15 18
+    print(i, end=' ')  # 18 15 12 9 6 3 0 -3 -6 -9 -12
 ````
 
 
