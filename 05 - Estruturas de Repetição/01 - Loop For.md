@@ -142,7 +142,7 @@ alfabeto = 'abcdefghijklmnopqrstuvwxyz'
 for letra in alfabeto:
     if letra == 'g' or letra == 'm' or letra == 'v':
         continue
-    print(letra)  # imprimirá de 'a' à 'f', pulando as letras 'g', 'm' e 'v'
+    print(letra)  # imprimirá de 'a' à 'z', pulando as letras 'g', 'm' e 'v'
 ````
 
 
